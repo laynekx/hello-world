@@ -10,11 +10,11 @@ public void setValue(double a0, double b0){
 }
 
 //Set "dance" array
-public String[][] dance = {{"zumba", "rumba"}, {"chacha", "hiphop"}};
+private String[][] dance = {{"zumba", "rumba"}, {"chacha", "hiphop"}};
 
 //Set d and e which chooses an element in "dance" array
-public int d = (a > b && a > 0.5) ? 0 : 1;
-public int e = (a > b && a < 0.5) ? 0 : 1;
+private int d = (a > b && a > 0.5) ? 0 : 1;
+private int e = (a > b && a < 0.5) ? 0 : 1;
 
 //Set dance to variable
 public String j = dance[d][e];
